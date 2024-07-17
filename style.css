@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+main {
+    background-color: #001422;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.card-container {
+    position: relative;
+}
+
+.circle {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1; 
+}
+
+.circle-1 {
+    height: 120px;
+    width: 120px;
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #ea8bfa 0%, #7526f5 100%);
+    top: -50px;
+    left: -50px;
+}
+
+.circle-2 {
+    height: 360px;
+    width: 360px;
+    background-image: radial-gradient(63.76% 63.76% at 50% 50%, #ff00c7 0%, #bd95ff 0.01%, #a661ff 32.29%, #6100ff 98.59%);
+    top: -125px;
+    right: -260px;
+}
+
+.circle-3 {
+    height: 220px;
+    width: 220px;
+    background-image: radial-gradient(67.47% 67.47% at 50% 50%, #fed0ff 0%, #7f00ff 100%);
+    bottom: -100px;
+    left: -150px;
+}
+
+.card {
+    position: relative; 
+    margin: auto;
+    background: linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+    z-index: 2; 
+    padding: 1rem;
+}
+
+.card-content {
+    border: 0.744px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.card-image {
+    max-width: 360px;
+}
+
+.card-text {
+    padding: 1rem;
+    max-width: 360px;
+    border-bottom: 0.744px solid rgba(255, 255, 255, 0.3);
+}
+
+.level-heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.level {
+    padding: 4px;
+    color: #ffd147;
+    background-color: #F1C6443D;
+    border-radius: 5px;
+}
+
+.card-text h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating span {
+    margin-left: 10px;
+}
+
+.cart {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart span {
+    margin-left: 10px;
+    opacity: 0.8;
+}
